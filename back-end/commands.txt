@@ -1,0 +1,4 @@
+Comandos para o nestJS
+
+-> gerando um CRUD completo
+nest g resource [name] modules
