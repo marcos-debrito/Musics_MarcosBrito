@@ -19,4 +19,9 @@ export class MusicsController {
   findOne(@Param('id') id: string) {
     return this.MusicsService.findOne(id);
   }
+
+  @Get('')
+  findAll() {
+    return this.MusicsService.findAll();
+  }
 }

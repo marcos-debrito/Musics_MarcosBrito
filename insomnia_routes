@@ -1,0 +1,385 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2023-12-14T16:43:03.284Z",
+  "__export_source": "insomnia.desktop.app:v2023.5.8",
+  "resources": [
+    {
+      "_id": "req_db76f811619d463788b23a48d3080788",
+      "parentId": "fld_4191fb00553f4bac8f6288823ebae9d8",
+      "modified": 1702563261762,
+      "created": 1702563096623,
+      "url": "http://localhost:3000/musics",
+      "name": "Create Music",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"name\": \"Iron Man\",\n\t\"album\": \"Paranoid\",\n\t\"artist\": \"Black Sabbath\",\n\t\"genre\": \"heavy metal\",\n\t\"year\": \"1970\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "User-Agent",
+          "value": "insomnia/2023.5.8"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1702563096623,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "fld_4191fb00553f4bac8f6288823ebae9d8",
+      "parentId": "wrk_cd838da64dc24b43931614648ce3ef9f",
+      "modified": 1702563094356,
+      "created": 1702563094356,
+      "name": "Musics",
+      "description": "",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1702563094356,
+      "_type": "request_group"
+    },
+    {
+      "_id": "wrk_cd838da64dc24b43931614648ce3ef9f",
+      "parentId": null,
+      "modified": 1702561904171,
+      "created": 1702474127573,
+      "name": "Music_NestJS",
+      "description": "",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_054f2726829d4c939a652dee3a5ec803",
+      "parentId": "fld_4191fb00553f4bac8f6288823ebae9d8",
+      "modified": 1702571385493,
+      "created": 1702563117584,
+      "url": "http://localhost:3000/musics/a0f6854c-144d-49be-8fa0-f34b2d2d03bb",
+      "name": "Read Music",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "insomnia/2023.5.8"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1702540865481.25,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_16e4c8f3b2dc43d3b2f052ce4d2848cf",
+      "parentId": "fld_4191fb00553f4bac8f6288823ebae9d8",
+      "modified": 1702563149300,
+      "created": 1702563125534,
+      "url": "http://localhost:3000/",
+      "name": "Update Music",
+      "description": "",
+      "method": "PATCH",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "insomnia/2023.5.8"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1702507518768.625,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_37e17293a82a455e997de18fd5d8212c",
+      "parentId": "fld_4191fb00553f4bac8f6288823ebae9d8",
+      "modified": 1702563151210,
+      "created": 1702563105359,
+      "url": "http://localhost:3000/",
+      "name": "Delete Music",
+      "description": "",
+      "method": "DELETE",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "insomnia/2023.5.8"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1702496403197.75,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_7a73418786ee4819b1d49bc915fe25f0",
+      "parentId": "fld_cd56eb278dd444da881ee879a9977a65",
+      "modified": 1702564776718,
+      "created": 1702564683185,
+      "url": "http://localhost:3000/users",
+      "name": "Create User",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"name\": \"Marcos\",\n\t\"email\": \"marcos@mail.com\",\n\t\"password\": \"123456\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "User-Agent",
+          "value": "insomnia/2023.5.8"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1702563096623,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "fld_cd56eb278dd444da881ee879a9977a65",
+      "parentId": "wrk_cd838da64dc24b43931614648ce3ef9f",
+      "modified": 1702564683184,
+      "created": 1702564683184,
+      "name": "Users",
+      "description": "",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1701436633148,
+      "_type": "request_group"
+    },
+    {
+      "_id": "req_4a4111fe4cab417d902b4124c234df21",
+      "parentId": "fld_cd56eb278dd444da881ee879a9977a65",
+      "modified": 1702564804067,
+      "created": 1702564799090,
+      "url": "http://localhost:3000/users",
+      "name": "Create User 2",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"name\": \"Paty\",\n\t\"email\": \"paty@mail.com\",\n\t\"password\": \"123456\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "User-Agent",
+          "value": "insomnia/2023.5.8"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1702551981052.125,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_05a5803882e54a65b26c848c7683f395",
+      "parentId": "fld_cd56eb278dd444da881ee879a9977a65",
+      "modified": 1702564818719,
+      "created": 1702564683187,
+      "url": "http://localhost:3000/users",
+      "name": "Read all users",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "insomnia/2023.5.8"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1702540865481.25,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_66c4c565bf594aa9996abf7584949e75",
+      "parentId": "fld_cd56eb278dd444da881ee879a9977a65",
+      "modified": 1702564916013,
+      "created": 1702564825230,
+      "url": "http://localhost:3000/users/9aab24c1-af4d-4c5b-9241-2b15495fb89b",
+      "name": "Read one user",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "insomnia/2023.5.8"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1702524192124.9375,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_0d01852014d04b9da3cbdb9c5df77095",
+      "parentId": "fld_cd56eb278dd444da881ee879a9977a65",
+      "modified": 1702564934906,
+      "created": 1702564683188,
+      "url": "http://localhost:3000/users/9aab24c1-af4d-4c5b-9241-2b15495fb89b",
+      "name": "Update User",
+      "description": "",
+      "method": "PATCH",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"name\": \"Paty lil\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "User-Agent",
+          "value": "insomnia/2023.5.8"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1702507518768.625,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_a59f318dfd1e485a90311ad0651b4bbd",
+      "parentId": "fld_cd56eb278dd444da881ee879a9977a65",
+      "modified": 1702564958798,
+      "created": 1702564683186,
+      "url": "http://localhost:3000/users/3d87dbc1-3f23-4820-b033-0a8b870dfafc",
+      "name": "Delete User",
+      "description": "",
+      "method": "DELETE",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "insomnia/2023.5.8"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1702496403197.75,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "env_0ed6b4e947e51c5a2eefdf76cc7749de9427341e",
+      "parentId": "wrk_cd838da64dc24b43931614648ce3ef9f",
+      "modified": 1702474203402,
+      "created": 1702474127577,
+      "name": "Base Environment",
+      "data": {},
+      "dataPropertyOrder": {},
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1702474127577,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_0ed6b4e947e51c5a2eefdf76cc7749de9427341e",
+      "parentId": "wrk_cd838da64dc24b43931614648ce3ef9f",
+      "modified": 1702474127577,
+      "created": 1702474127577,
+      "name": "Default Jar",
+      "cookies": [],
+      "_type": "cookie_jar"
+    },
+    {
+      "_id": "env_257853b9e6474595a8459afc3442807a",
+      "parentId": "env_0ed6b4e947e51c5a2eefdf76cc7749de9427341e",
+      "modified": 1702474195660,
+      "created": 1702474141196,
+      "name": "New Environment",
+      "data": {},
+      "dataPropertyOrder": {},
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1702474141196,
+      "_type": "environment"
+    }
+  ]
+}

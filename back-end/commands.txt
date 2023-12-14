@@ -2,3 +2,18 @@ Comandos para o nestJS
 
 -> gerando um CRUD completo
 nest g resource [name] modules
+
+-----------------------------------
+
+Prisma
+-> Instalação
+npm i prisma -D, uma dependência de desenvolvimento
+
+Iniciando ORM
+npx prisma init
+
+Para rodas as migrações
+npx prisma migrate dev
+
+Para verificar os dados no PRISMA STUDIO
+npx prisma studio
